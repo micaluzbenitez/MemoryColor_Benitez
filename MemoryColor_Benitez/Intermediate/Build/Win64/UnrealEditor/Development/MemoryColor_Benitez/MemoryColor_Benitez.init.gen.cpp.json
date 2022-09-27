@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\feder\\desktop\\memorycolor_benitez-main\\memorycolor_benitez-main\\memorycolor_benitez\\intermediate\\build\\win64\\unrealeditor\\inc\\memorycolor_benitez\\memorycolor_benitez.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\feder\\desktop\\memorycolor_benitez-main\\memorycolor_benitez-main\\memorycolor_benitez\\intermediate\\build\\win64\\memorycolor_benitezeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\feder\\desktop\\memorycolor_benitez-main\\memorycolor_benitez-main\\memorycolor_benitez\\intermediate\\build\\win64\\unrealeditor\\development\\memorycolor_benitez\\definitions.memorycolor_benitez.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

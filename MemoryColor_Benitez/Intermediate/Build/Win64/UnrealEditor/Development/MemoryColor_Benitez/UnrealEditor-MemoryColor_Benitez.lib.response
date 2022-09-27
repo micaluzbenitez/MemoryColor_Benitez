@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MemoryColor_Benitez.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\feder\Desktop\MemoryColor_Benitez-main\MemoryColor_Benitez-main\MemoryColor_Benitez\Intermediate\Build\Win64\MemoryColor_BenitezEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\feder\Desktop\MemoryColor_Benitez-main\MemoryColor_Benitez-main\MemoryColor_Benitez\Intermediate\Build\Win64\UnrealEditor\Development\MemoryColor_Benitez\ColorButton.cpp.obj"
+"C:\Users\feder\Desktop\MemoryColor_Benitez-main\MemoryColor_Benitez-main\MemoryColor_Benitez\Intermediate\Build\Win64\UnrealEditor\Development\MemoryColor_Benitez\ColorComander.cpp.obj"
+"C:\Users\feder\Desktop\MemoryColor_Benitez-main\MemoryColor_Benitez-main\MemoryColor_Benitez\Intermediate\Build\Win64\UnrealEditor\Development\MemoryColor_Benitez\MemoryColor_Benitez.cpp.obj"
+"C:\Users\feder\Desktop\MemoryColor_Benitez-main\MemoryColor_Benitez-main\MemoryColor_Benitez\Intermediate\Build\Win64\UnrealEditor\Development\MemoryColor_Benitez\ColorButton.gen.cpp.obj"
+"C:\Users\feder\Desktop\MemoryColor_Benitez-main\MemoryColor_Benitez-main\MemoryColor_Benitez\Intermediate\Build\Win64\UnrealEditor\Development\MemoryColor_Benitez\ColorComander.gen.cpp.obj"
+"C:\Users\feder\Desktop\MemoryColor_Benitez-main\MemoryColor_Benitez-main\MemoryColor_Benitez\Intermediate\Build\Win64\UnrealEditor\Development\MemoryColor_Benitez\MemoryColor_Benitez.init.gen.cpp.obj"
+"C:\Users\feder\Desktop\MemoryColor_Benitez-main\MemoryColor_Benitez-main\MemoryColor_Benitez\Intermediate\Build\Win64\UnrealEditor\Development\MemoryColor_Benitez\Default.rc2.res"
+/OUT:"C:\Users\feder\Desktop\MemoryColor_Benitez-main\MemoryColor_Benitez-main\MemoryColor_Benitez\Intermediate\Build\Win64\UnrealEditor\Development\MemoryColor_Benitez\UnrealEditor-MemoryColor_Benitez.lib"
