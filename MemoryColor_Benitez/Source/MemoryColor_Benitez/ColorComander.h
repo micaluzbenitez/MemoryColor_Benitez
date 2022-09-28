@@ -6,14 +6,34 @@
 #include "GameFramework/Actor.h"
 #include "ColorComander.generated.h"
 
+class UTextRenderComponent;
+
 UCLASS()
 class MEMORYCOLOR_BENITEZ_API AColorComander : public AActor
 {
 	GENERATED_BODY()
-	
+
+	UPROPERTY(VisibleDefaultsOnly, Category = ColorComander);
+	USceneComponent* DefaultRoot;
+
 public:	
 	// Sets default values for this actor's properties
 	AColorComander();
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = ColorComander);
+	UStaticMeshComponent* ColorComander;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = ColorComander);
+	UTextRenderComponent* TextRenderColor;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = ColorComander);
+	UTextRenderComponent* TextRenderNumber;
+
+	UPROPERTY(SimpleDisplay, BlueprintReadWrite, Category = ColorComander);
+	TArray<FString> ColorsArray;
+
+	UPROPERTY(SimpleDisplay, BlueprintReadWrite, Category = ColorComander);
+	int ColorsArrayIndex = 0;
 
 protected:
 	// Called when the game starts or when spawned
@@ -23,4 +43,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintCallable)
+	void CheckColor(FString color);
 };

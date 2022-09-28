@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "MemoryColor_Benitez",
-			"Path": "C:\\Users\\feder\\Desktop\\MemoryColor_Benitez-main\\MemoryColor_Benitez-main\\MemoryColor_Benitez\\Source\\MemoryColor_Benitez.Target.cs",
+			"Path": "D:\\AA Facu\\Unreal\\MemoryColor_Benitez\\MemoryColor_Benitez\\Source\\MemoryColor_Benitez.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "MemoryColor_BenitezEditor",
-			"Path": "C:\\Users\\feder\\Desktop\\MemoryColor_Benitez-main\\MemoryColor_Benitez-main\\MemoryColor_Benitez\\Source\\MemoryColor_BenitezEditor.Target.cs",
+			"Path": "D:\\AA Facu\\Unreal\\MemoryColor_Benitez\\MemoryColor_Benitez\\Source\\MemoryColor_BenitezEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

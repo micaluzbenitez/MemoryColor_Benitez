@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MemoryColor_Benitez.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MemoryColor_Benitez.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MemoryColor_BenitezEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\MemoryColor_Benitez">
+      <UniqueIdentifier>{78D2CEB2-A513-3BE3-9923-25FAC66BFC4E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MemoryColor_Benitez\ColorComander.cpp">
+      <Filter>Source\MemoryColor_Benitez</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MemoryColor_Benitez\ColorComander.h">
+      <Filter>Source\MemoryColor_Benitez</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\MemoryColor_Benitez\MemoryColor_Benitez.Build.cs">
+      <Filter>Source\MemoryColor_Benitez</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MemoryColor_Benitez\MemoryColor_Benitez.cpp">
+      <Filter>Source\MemoryColor_Benitez</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MemoryColor_Benitez\MemoryColor_Benitez.h">
+      <Filter>Source\MemoryColor_Benitez</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
