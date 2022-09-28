@@ -44,5 +44,5 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
-	void CheckColor(FString color);
+	bool CheckColor(FString color);
 };

@@ -37,15 +37,15 @@ void AColorComander::Tick(float DeltaTime)
 
 }
 
-void AColorComander::CheckColor(FString color)
+bool AColorComander::CheckColor(FString color)
 {
 	if (color == ColorsArray[ColorsArrayIndex])
 	{
 		ColorsArrayIndex++;
-		printf("YES");
+		return true;
 	}
 	else
 	{
-		printf("LOSER");
+		return false;
 	}
 }

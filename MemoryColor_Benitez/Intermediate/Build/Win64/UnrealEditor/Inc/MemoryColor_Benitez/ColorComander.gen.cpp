@@ -22,7 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeColorComander() {}
 		P_GET_PROPERTY(FStrProperty,Z_Param_color);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->CheckColor(Z_Param_color);
+		*(bool*)Z_Param__Result=P_THIS->CheckColor(Z_Param_color);
 		P_NATIVE_END;
 	}
 	void AColorComander::StaticRegisterNativesAColorComander()
@@ -38,8 +38,11 @@ void EmptyLinkFunctionForGeneratedCodeColorComander() {}
 		struct ColorComander_eventCheckColor_Parms
 		{
 			FString color;
+			bool ReturnValue;
 		};
 		static const UECodeGen_Private::FStrPropertyParams NewProp_color;
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -47,8 +50,14 @@ void EmptyLinkFunctionForGeneratedCodeColorComander() {}
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AColorComander_CheckColor_Statics::NewProp_color = { "color", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ColorComander_eventCheckColor_Parms, color), METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_AColorComander_CheckColor_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((ColorComander_eventCheckColor_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AColorComander_CheckColor_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ColorComander_eventCheckColor_Parms), &Z_Construct_UFunction_AColorComander_CheckColor_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AColorComander_CheckColor_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AColorComander_CheckColor_Statics::NewProp_color,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AColorComander_CheckColor_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AColorComander_CheckColor_Statics::Function_MetaDataParams[] = {
@@ -111,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeColorComander() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MemoryColor_Benitez,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AColorComander_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AColorComander_CheckColor, "CheckColor" }, // 1537286093
+		{ &Z_Construct_UFunction_AColorComander_CheckColor, "CheckColor" }, // 2657551302
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AColorComander_Statics::Class_MetaDataParams[] = {
@@ -211,9 +220,9 @@ void EmptyLinkFunctionForGeneratedCodeColorComander() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MemoryColor_Benitez_Source_MemoryColor_Benitez_ColorComander_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AColorComander, AColorComander::StaticClass, TEXT("AColorComander"), &Z_Registration_Info_UClass_AColorComander, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AColorComander), 1235775839U) },
+		{ Z_Construct_UClass_AColorComander, AColorComander::StaticClass, TEXT("AColorComander"), &Z_Registration_Info_UClass_AColorComander, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AColorComander), 3870312675U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MemoryColor_Benitez_Source_MemoryColor_Benitez_ColorComander_h_330733504(TEXT("/Script/MemoryColor_Benitez"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MemoryColor_Benitez_Source_MemoryColor_Benitez_ColorComander_h_2130371623(TEXT("/Script/MemoryColor_Benitez"),
 		Z_CompiledInDeferFile_FID_MemoryColor_Benitez_Source_MemoryColor_Benitez_ColorComander_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MemoryColor_Benitez_Source_MemoryColor_Benitez_ColorComander_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

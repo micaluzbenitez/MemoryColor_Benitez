@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeMemoryColor_Benitez_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x1506B06B,
+				0x7002DC0C,
 				0x5406B13E,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeMemoryColor_Benitez_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_MemoryColor_Benitez.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_MemoryColor_Benitez(Z_Construct_UPackage__Script_MemoryColor_Benitez, TEXT("/Script/MemoryColor_Benitez"), Z_Registration_Info_UPackage__Script_MemoryColor_Benitez, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x1506B06B, 0x5406B13E));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_MemoryColor_Benitez(Z_Construct_UPackage__Script_MemoryColor_Benitez, TEXT("/Script/MemoryColor_Benitez"), Z_Registration_Info_UPackage__Script_MemoryColor_Benitez, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x7002DC0C, 0x5406B13E));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
