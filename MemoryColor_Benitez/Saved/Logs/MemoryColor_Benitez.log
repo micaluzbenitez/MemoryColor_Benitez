@@ -1301,3 +1301,818 @@ Script Stack (0 frames):
 [2022.11.23-01.33.05:398][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.11.23-01.33.05:401][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
 [2022.11.23-01.33.05:488][738]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.11.23-01.34.18:109][515]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-01.34.18:115][515]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-01.34.18:115][515]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-01.34.18:115][515]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.34.18:115][515]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-01.34.18:115][515]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-01.34.18:115][515]LogWorldPartition: Display: GetPartitionedActors took 42 us
+[2022.11.23-01.34.18:115][515]LogWorldPartition: Display: GenerateStreaming took 201 us
+[2022.11.23-01.34.18:115][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-01.34.18:115][515]PIE: New page: PIE session: Level00 (Nov 22, 2022, 7:34:18 PM)
+[2022.11.23-01.34.18:115][515]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.34.18:120][515]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-01.34.18:120][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004459s)
+[2022.11.23-01.34.18:120][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.004512s)
+[2022.11.23-01.34.18:120][515]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-01.34.18:120][515]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-01.34.18:121][515]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-01.34.18:121][515]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-01.34.18:122][515]LogWorldPartition: Display: WorldPartition initialize took 877 us
+[2022.11.23-01.34.18:122][515]LogPlayLevel: PIE: World Init took: (0.001708s)
+[2022.11.23-01.34.18:155][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.11.23-01.34.18:156][515]LogBlueprintUserMessages: [GI_MemoryColor_C_5] Hello
+[2022.11.23-01.34.18:156][515]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.11.23-01.34.18:156][515]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-01.34.18:156][515]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-01.34.18:156][515]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-01.34.18:156][515]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-01.34.18:156][515]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-01.34.18:156][515]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-01.34.18:156][515]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-01.34.18:156][515]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-01.34.18:157][515]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-01.34.18:157][515]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-01.34.18:157][515]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-01.34.18:159][515]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-01.34.18:178][515]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-01.34.18:178][515]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-01.34.18:178][515]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-01.34.18:178][515]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-01.34.18:179][515]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2022.11.23-01.34.18:179][515]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2022.11.23-01.34.18:180][515]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2022.11.23-01.34.18:180][515]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2022.11.23-01.34.18:180][515]LogInit: FAudioDevice initialized.
+[2022.11.23-01.34.18:180][515]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level00'.
+[2022.11.23-01.34.18:224][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.34.18:224][515]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-01.34.18:225][515]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-22.34.18
+[2022.11.23-01.34.18:226][515]LogWorld: Bringing up level for play took: 0.001679
+[2022.11.23-01.34.18:227][515]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2022.11.23-01.34.18:229][515]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-01.34.18:229][515]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.34.18:232][515]PIE: Server logged in
+[2022.11.23-01.34.18:235][515]PIE: Play in editor total start time 0.121 seconds.
+[2022.11.23-01.34.18:244][515]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2022.11.23-01.34.18:246][515]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.11.23-01.34.37:404][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.34.37:404][591]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.34.37:404][591]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-01.34.37:406][591]LogBlueprintUserMessages: [GI_MemoryColor_C_5] Bye
+[2022.11.23-01.34.37:406][591]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-01.34.37:407][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.34.37:427][591]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-01.34.37:432][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.34.37:469][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.11.23-01.34.37:470][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.11.23-01.34.37:476][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.11.23-01.34.37:575][592]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.11.23-01.35.32:887][937]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.35.32:952][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.11.23-01.35.33:508][978]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.35.33:509][978]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander7603102340E0942E16E404A568B5ECE2.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.35.33:520][978]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.35.33:520][978]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.35.55:164][248]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-01.35.55:170][248]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-01.35.55:170][248]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-01.35.55:170][248]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.35.55:170][248]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-01.35.55:170][248]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-01.35.55:170][248]LogWorldPartition: Display: GetPartitionedActors took 48 us
+[2022.11.23-01.35.55:170][248]LogWorldPartition: Display: GenerateStreaming took 222 us
+[2022.11.23-01.35.55:170][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-01.35.55:171][248]PIE: New page: PIE session: Level00 (Nov 22, 2022, 7:35:55 PM)
+[2022.11.23-01.35.55:171][248]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.35.55:174][248]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-01.35.55:174][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003671s)
+[2022.11.23-01.35.55:174][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.003734s)
+[2022.11.23-01.35.55:175][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-01.35.55:175][248]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-01.35.55:175][248]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-01.35.55:175][248]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-01.35.55:176][248]LogWorldPartition: Display: WorldPartition initialize took 860 us
+[2022.11.23-01.35.55:176][248]LogPlayLevel: PIE: World Init took: (0.001772s)
+[2022.11.23-01.35.55:209][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.11.23-01.35.55:211][248]LogBlueprintUserMessages: [GI_MemoryColor_C_6] Hello
+[2022.11.23-01.35.55:211][248]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.11.23-01.35.55:211][248]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-01.35.55:211][248]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-01.35.55:211][248]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-01.35.55:211][248]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-01.35.55:211][248]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-01.35.55:211][248]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-01.35.55:211][248]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-01.35.55:211][248]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-01.35.55:212][248]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-01.35.55:212][248]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-01.35.55:212][248]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-01.35.55:213][248]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-01.35.55:265][248]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-01.35.55:265][248]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-01.35.55:265][248]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-01.35.55:265][248]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-01.35.55:267][248]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2022.11.23-01.35.55:267][248]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2022.11.23-01.35.55:268][248]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2022.11.23-01.35.55:268][248]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2022.11.23-01.35.55:268][248]LogInit: FAudioDevice initialized.
+[2022.11.23-01.35.55:268][248]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level00'.
+[2022.11.23-01.35.55:310][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.35.55:311][248]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-01.35.55:312][248]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-22.35.55
+[2022.11.23-01.35.55:313][248]LogWorld: Bringing up level for play took: 0.001929
+[2022.11.23-01.35.55:315][248]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2022.11.23-01.35.55:317][248]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-01.35.55:317][248]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.35.55:320][248]PIE: Server logged in
+[2022.11.23-01.35.55:322][248]PIE: Play in editor total start time 0.153 seconds.
+[2022.11.23-01.35.55:333][248]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.11.23-01.36.12:445][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.36.12:445][229]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.36.12:446][229]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-01.36.12:451][229]LogBlueprintUserMessages: [GI_MemoryColor_C_6] Bye
+[2022.11.23-01.36.12:451][229]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-01.36.12:451][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.36.12:481][229]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-01.36.12:490][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.36.12:541][229]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-01.36.12:541][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.11.23-01.36.12:543][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.11.23-01.36.12:550][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.11.23-01.36.12:647][230]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.11.23-01.36.20:110][772]LogEditorTransaction: Undo Create Pin Link
+[2022.11.23-01.36.20:357][775]LogEditorTransaction: Undo Create Pin Link
+[2022.11.23-01.36.20:566][777]LogEditorTransaction: Undo Move Node
+[2022.11.23-01.36.20:842][790]LogEditorTransaction: Undo Function Dropped on Graph
+[2022.11.23-01.36.21:214][824]LogEditorTransaction: Undo Move Nodes
+[2022.11.23-01.36.25:525][255]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.36.25:593][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.11.23-01.36.26:021][285]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.36.26:022][285]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComanderA5D0AFDD46E6CF1204B2FFBB7258C09F.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.36.26:034][285]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.36.26:034][285]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.36.30:033][740]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-01.36.30:038][740]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-01.36.30:038][740]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-01.36.30:038][740]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.36.30:039][740]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-01.36.30:039][740]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-01.36.30:039][740]LogWorldPartition: Display: GetPartitionedActors took 45 us
+[2022.11.23-01.36.30:039][740]LogWorldPartition: Display: GenerateStreaming took 197 us
+[2022.11.23-01.36.30:039][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-01.36.30:039][740]PIE: New page: PIE session: Level00 (Nov 22, 2022, 7:36:30 PM)
+[2022.11.23-01.36.30:039][740]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.36.30:042][740]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-01.36.30:043][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003521s)
+[2022.11.23-01.36.30:043][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.003572s)
+[2022.11.23-01.36.30:043][740]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-01.36.30:043][740]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-01.36.30:043][740]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-01.36.30:043][740]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-01.36.30:044][740]LogWorldPartition: Display: WorldPartition initialize took 848 us
+[2022.11.23-01.36.30:044][740]LogPlayLevel: PIE: World Init took: (0.001608s)
+[2022.11.23-01.36.30:079][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.11.23-01.36.30:081][740]LogBlueprintUserMessages: [GI_MemoryColor_C_7] Hello
+[2022.11.23-01.36.30:081][740]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.11.23-01.36.30:081][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-01.36.30:081][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-01.36.30:081][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-01.36.30:081][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-01.36.30:081][740]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-01.36.30:081][740]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-01.36.30:081][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-01.36.30:081][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-01.36.30:082][740]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-01.36.30:082][740]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-01.36.30:082][740]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-01.36.30:083][740]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-01.36.30:100][740]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-01.36.30:101][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-01.36.30:101][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-01.36.30:101][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-01.36.30:101][740]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2022.11.23-01.36.30:101][740]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2022.11.23-01.36.30:103][740]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2022.11.23-01.36.30:103][740]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2022.11.23-01.36.30:103][740]LogInit: FAudioDevice initialized.
+[2022.11.23-01.36.30:103][740]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level00'.
+[2022.11.23-01.36.30:158][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.36.30:158][740]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-01.36.30:160][740]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-22.36.30
+[2022.11.23-01.36.30:160][740]LogWorld: Bringing up level for play took: 0.001678
+[2022.11.23-01.36.30:162][740]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2022.11.23-01.36.30:163][740]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-01.36.30:163][740]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.36.30:167][740]PIE: Server logged in
+[2022.11.23-01.36.30:169][740]PIE: Play in editor total start time 0.132 seconds.
+[2022.11.23-01.36.30:181][740]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.11.23-01.36.43:705][560]LogViewport: Scene viewport resized to 1279x720, mode Windowed.
+[2022.11.23-01.36.43:772][560]LogViewport: Scene viewport resized to 1275x720, mode Windowed.
+[2022.11.23-01.36.44:416][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.36.44:416][597]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.36.44:416][597]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-01.36.44:420][597]LogBlueprintUserMessages: [GI_MemoryColor_C_7] Bye
+[2022.11.23-01.36.44:420][597]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-01.36.44:420][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.36.44:442][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-01.36.44:447][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.36.44:481][597]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-01.36.44:481][597]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.11.23-01.36.44:483][597]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.11.23-01.36.44:489][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.11.23-01.36.44:583][598]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.11.23-01.37.02:050][483]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.37.02:117][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.11.23-01.37.02:604][515]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.37.02:604][515]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander7B0A345444C8E8737984E2A6C5CAFD48.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.37.02:617][515]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.37.02:617][515]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.37.03:333][589]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-01.37.03:340][589]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-01.37.03:340][589]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-01.37.03:340][589]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.37.03:340][589]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-01.37.03:340][589]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-01.37.03:340][589]LogWorldPartition: Display: GetPartitionedActors took 67 us
+[2022.11.23-01.37.03:340][589]LogWorldPartition: Display: GenerateStreaming took 268 us
+[2022.11.23-01.37.03:340][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-01.37.03:340][589]PIE: New page: PIE session: Level00 (Nov 22, 2022, 7:37:03 PM)
+[2022.11.23-01.37.03:340][589]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.37.03:345][589]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-01.37.03:345][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004830s)
+[2022.11.23-01.37.03:345][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.004887s)
+[2022.11.23-01.37.03:345][589]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-01.37.03:345][589]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-01.37.03:346][589]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-01.37.03:346][589]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-01.37.03:347][589]LogWorldPartition: Display: WorldPartition initialize took 970 us
+[2022.11.23-01.37.03:347][589]LogPlayLevel: PIE: World Init took: (0.001950s)
+[2022.11.23-01.37.03:382][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2022.11.23-01.37.03:385][589]LogBlueprintUserMessages: [GI_MemoryColor_C_8] Hello
+[2022.11.23-01.37.03:385][589]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.11.23-01.37.03:385][589]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-01.37.03:385][589]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-01.37.03:385][589]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-01.37.03:385][589]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-01.37.03:385][589]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-01.37.03:385][589]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-01.37.03:385][589]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-01.37.03:385][589]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-01.37.03:385][589]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-01.37.03:385][589]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-01.37.03:385][589]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-01.37.03:387][589]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-01.37.03:403][589]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-01.37.03:404][589]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-01.37.03:404][589]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-01.37.03:404][589]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-01.37.03:404][589]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2022.11.23-01.37.03:404][589]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2022.11.23-01.37.03:406][589]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2022.11.23-01.37.03:406][589]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2022.11.23-01.37.03:406][589]LogInit: FAudioDevice initialized.
+[2022.11.23-01.37.03:406][589]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level00'.
+[2022.11.23-01.37.03:453][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.37.03:453][589]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-01.37.03:455][589]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-22.37.03
+[2022.11.23-01.37.03:456][589]LogWorld: Bringing up level for play took: 0.002004
+[2022.11.23-01.37.03:458][589]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2022.11.23-01.37.03:460][589]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-01.37.03:460][589]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.37.03:464][589]PIE: Server logged in
+[2022.11.23-01.37.03:466][589]PIE: Play in editor total start time 0.127 seconds.
+[2022.11.23-01.37.03:479][589]LogViewport: Scene viewport resized to 1275x720, mode Windowed.
+[2022.11.23-01.37.07:557][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.37.07:557][825]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.37.07:557][825]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-01.37.07:563][825]LogBlueprintUserMessages: [GI_MemoryColor_C_8] Bye
+[2022.11.23-01.37.07:563][825]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-01.37.07:563][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.37.07:582][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-01.37.07:587][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.37.07:619][825]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-01.37.07:619][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.11.23-01.37.07:621][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.11.23-01.37.07:627][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.11.23-01.37.07:723][826]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.11.23-01.37.08:551][922]Cmd: TRANSACTION UNDO
+[2022.11.23-01.37.08:552][922]LogEditorTransaction: Undo Break Pin Links
+[2022.11.23-01.37.09:040][930]Cmd: TRANSACTION UNDO
+[2022.11.23-01.37.09:040][930]LogEditorTransaction: Undo Create Pin Link
+[2022.11.23-01.37.09:703][993]Cmd: TRANSACTION UNDO
+[2022.11.23-01.37.09:703][993]LogEditorTransaction: Undo Create Pin Link
+[2022.11.23-01.37.10:247][ 47]Cmd: TRANSACTION UNDO
+[2022.11.23-01.37.10:247][ 47]LogEditorTransaction: Undo Move Nodes
+[2022.11.23-01.37.10:652][ 84]Cmd: TRANSACTION UNDO
+[2022.11.23-01.37.10:652][ 84]LogEditorTransaction: Undo Move Nodes
+[2022.11.23-01.37.11:081][120]Cmd: TRANSACTION UNDO
+[2022.11.23-01.37.11:081][120]LogEditorTransaction: Undo Move Nodes
+[2022.11.23-01.37.11:488][158]Cmd: TRANSACTION UNDO
+[2022.11.23-01.37.11:488][158]LogEditorTransaction: Undo Paste clipboard contents
+[2022.11.23-01.37.11:862][192]Cmd: TRANSACTION UNDO
+[2022.11.23-01.37.11:862][192]LogEditorTransaction: Undo Move Node
+[2022.11.23-01.38.35:724][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.11.23-01.38.35:727][ 57]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/0/RD/IYQRRUJLEXFDMDUH0IO1G6_Auto1
+[2022.11.23-01.38.35:727][ 57]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/IYQRRUJLEXFDMDUH0IO1G6_Auto1EC6F160A407D3224AB6C79A41D7EBA76.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/0/RD/IYQRRUJLEXFDMDUH0IO1G6_Auto1.uasset'
+[2022.11.23-01.38.35:727][ 57]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MemoryColor/Maps/Level00' took 0.038
+[2022.11.23-01.38.35:727][ 57]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.038
+[2022.11.23-01.38.35:728][ 57]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MemoryColor/Core/ColorComander/BP_ColorComander] ([2] browsable assets)...
+[2022.11.23-01.38.35:757][ 57]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander]
+[2022.11.23-01.38.35:757][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/MemoryColor/Core/ColorComander/BP_ColorComander]
+[2022.11.23-01.38.35:782][ 57]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MemoryColor/Core/ColorComander/BP_ColorComander_Auto1
+[2022.11.23-01.38.35:782][ 57]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander_Auto1FB82FEC84E4230D463D83C91C633C0DA.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/MemoryColor/Core/ColorComander/BP_ColorComander_Auto1.uasset'
+[2022.11.23-01.38.35:783][ 57]LogFileHelpers: Auto-saving content packages took 0.055
+[2022.11.23-01.38.48:098][431]LogEditorTransaction: Undo Move Node
+[2022.11.23-01.39.00:078][402]LogEditorTransaction: Undo Break Pin Links
+[2022.11.23-01.39.00:815][430]LogEditorTransaction: Undo Create Pin Link
+[2022.11.23-01.39.49:698][413]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.39.49:768][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.11.23-01.39.50:248][447]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.39.50:248][447]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComanderF4FCFFF54504DC96F8750994576A4EB0.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.39.50:260][447]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.39.50:260][447]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.39.51:255][551]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-01.39.51:260][551]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-01.39.51:260][551]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-01.39.51:260][551]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.39.51:261][551]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-01.39.51:261][551]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-01.39.51:261][551]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.11.23-01.39.51:261][551]LogWorldPartition: Display: GenerateStreaming took 201 us
+[2022.11.23-01.39.51:261][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-01.39.51:261][551]PIE: New page: PIE session: Level00 (Nov 22, 2022, 7:39:51 PM)
+[2022.11.23-01.39.51:261][551]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.39.51:264][551]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-01.39.51:264][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003499s)
+[2022.11.23-01.39.51:265][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.003552s)
+[2022.11.23-01.39.51:265][551]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-01.39.51:265][551]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-01.39.51:265][551]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-01.39.51:265][551]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-01.39.51:266][551]LogWorldPartition: Display: WorldPartition initialize took 839 us
+[2022.11.23-01.39.51:266][551]LogPlayLevel: PIE: World Init took: (0.001599s)
+[2022.11.23-01.39.51:297][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.11.23-01.39.51:300][551]LogBlueprintUserMessages: [GI_MemoryColor_C_9] Hello
+[2022.11.23-01.39.51:300][551]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.11.23-01.39.51:300][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-01.39.51:300][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-01.39.51:300][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-01.39.51:300][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-01.39.51:300][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-01.39.51:300][551]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-01.39.51:300][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-01.39.51:300][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-01.39.51:300][551]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-01.39.51:300][551]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-01.39.51:300][551]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-01.39.51:302][551]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-01.39.51:320][551]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-01.39.51:320][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-01.39.51:320][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-01.39.51:320][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-01.39.51:321][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.11.23-01.39.51:321][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2022.11.23-01.39.51:322][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.11.23-01.39.51:322][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.11.23-01.39.51:322][551]LogInit: FAudioDevice initialized.
+[2022.11.23-01.39.51:322][551]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level00'.
+[2022.11.23-01.39.51:366][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.39.51:366][551]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-01.39.51:368][551]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-22.39.51
+[2022.11.23-01.39.51:368][551]LogWorld: Bringing up level for play took: 0.001784
+[2022.11.23-01.39.51:370][551]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2022.11.23-01.39.51:372][551]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-01.39.51:372][551]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.39.51:375][551]PIE: Server logged in
+[2022.11.23-01.39.51:377][551]PIE: Play in editor total start time 0.118 seconds.
+[2022.11.23-01.39.51:388][551]LogViewport: Scene viewport resized to 1275x720, mode Windowed.
+[2022.11.23-01.40.06:410][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.40.06:410][490]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.40.06:410][490]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-01.40.06:417][490]LogBlueprintUserMessages: [GI_MemoryColor_C_9] Bye
+[2022.11.23-01.40.06:417][490]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-01.40.06:417][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.40.06:435][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-01.40.06:439][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.40.06:473][490]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-01.40.06:473][490]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.11.23-01.40.06:474][490]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.11.23-01.40.06:480][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.11.23-01.40.06:573][491]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.11.23-01.41.03:930][ 69]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.41.04:002][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.11.23-01.41.04:564][110]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.41.04:565][110]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander4102B6A14325FE0BE20F4EBEE50EB066.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.41.04:576][110]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.41.04:576][110]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.41.07:387][401]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.41.07:387][401]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander666DE3A6421CCC8289C85CA3364B8656.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.41.07:398][401]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.41.07:398][401]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.43.57:161][806]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.43.57:230][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.11.23-01.44.00:756][201]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-01.44.00:763][201]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-01.44.00:763][201]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-01.44.00:763][201]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.44.00:763][201]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-01.44.00:763][201]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-01.44.00:763][201]LogWorldPartition: Display: GetPartitionedActors took 65 us
+[2022.11.23-01.44.00:764][201]LogWorldPartition: Display: GenerateStreaming took 296 us
+[2022.11.23-01.44.00:764][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-01.44.00:764][201]PIE: New page: PIE session: Level00 (Nov 22, 2022, 7:44:00 PM)
+[2022.11.23-01.44.00:764][201]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.44.00:769][201]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-01.44.00:770][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005413s)
+[2022.11.23-01.44.00:770][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.005481s)
+[2022.11.23-01.44.00:770][201]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-01.44.00:770][201]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-01.44.00:771][201]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-01.44.00:771][201]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-01.44.00:772][201]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.23-01.44.00:772][201]LogPlayLevel: PIE: World Init took: (0.002374s)
+[2022.11.23-01.44.00:807][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.11.23-01.44.00:809][201]LogBlueprintUserMessages: [GI_MemoryColor_C_10] Hello
+[2022.11.23-01.44.00:809][201]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.11.23-01.44.00:810][201]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-01.44.00:810][201]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-01.44.00:810][201]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-01.44.00:810][201]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-01.44.00:810][201]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-01.44.00:810][201]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-01.44.00:810][201]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-01.44.00:810][201]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-01.44.00:810][201]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-01.44.00:810][201]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-01.44.00:810][201]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-01.44.00:812][201]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-01.44.00:831][201]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-01.44.00:831][201]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-01.44.00:831][201]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-01.44.00:831][201]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-01.44.00:832][201]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2022.11.23-01.44.00:832][201]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2022.11.23-01.44.00:833][201]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2022.11.23-01.44.00:834][201]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2022.11.23-01.44.00:834][201]LogInit: FAudioDevice initialized.
+[2022.11.23-01.44.00:834][201]LogAudio: Display: Audio Device (ID: 12) registered with world 'Level00'.
+[2022.11.23-01.44.00:879][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.44.00:879][201]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-01.44.00:881][201]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-22.44.00
+[2022.11.23-01.44.00:881][201]LogWorld: Bringing up level for play took: 0.001945
+[2022.11.23-01.44.00:884][201]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2022.11.23-01.44.00:886][201]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-01.44.00:886][201]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.44.00:890][201]PIE: Server logged in
+[2022.11.23-01.44.00:892][201]PIE: Play in editor total start time 0.13 seconds.
+[2022.11.23-01.44.00:905][201]LogViewport: Scene viewport resized to 1275x720, mode Windowed.
+[2022.11.23-01.44.10:255][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.44.10:255][690]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.44.10:255][690]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-01.44.10:261][690]LogBlueprintUserMessages: [GI_MemoryColor_C_10] Bye
+[2022.11.23-01.44.10:261][690]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-01.44.10:262][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.44.10:283][690]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-01.44.10:288][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.44.10:322][690]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-01.44.10:323][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.11.23-01.44.10:324][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.11.23-01.44.10:330][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.11.23-01.44.10:444][691]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.11.23-01.44.15:517][184]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.44.15:585][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.11.23-01.44.16:560][276]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-01.44.16:566][276]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-01.44.16:566][276]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-01.44.16:566][276]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.44.16:566][276]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-01.44.16:566][276]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-01.44.16:566][276]LogWorldPartition: Display: GetPartitionedActors took 42 us
+[2022.11.23-01.44.16:566][276]LogWorldPartition: Display: GenerateStreaming took 196 us
+[2022.11.23-01.44.16:566][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-01.44.16:566][276]PIE: New page: PIE session: Level00 (Nov 22, 2022, 7:44:16 PM)
+[2022.11.23-01.44.16:566][276]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.44.16:569][276]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-01.44.16:569][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003440s)
+[2022.11.23-01.44.16:569][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.003493s)
+[2022.11.23-01.44.16:570][276]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-01.44.16:570][276]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-01.44.16:570][276]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-01.44.16:570][276]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-01.44.16:571][276]LogWorldPartition: Display: WorldPartition initialize took 850 us
+[2022.11.23-01.44.16:571][276]LogPlayLevel: PIE: World Init took: (0.001633s)
+[2022.11.23-01.44.16:605][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.11.23-01.44.16:607][276]LogBlueprintUserMessages: [GI_MemoryColor_C_11] Hello
+[2022.11.23-01.44.16:607][276]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.11.23-01.44.16:607][276]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-01.44.16:607][276]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-01.44.16:607][276]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-01.44.16:607][276]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-01.44.16:607][276]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-01.44.16:607][276]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-01.44.16:607][276]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-01.44.16:607][276]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-01.44.16:608][276]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-01.44.16:608][276]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-01.44.16:608][276]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-01.44.16:609][276]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-01.44.16:626][276]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-01.44.16:627][276]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-01.44.16:627][276]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-01.44.16:627][276]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-01.44.16:627][276]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2022.11.23-01.44.16:627][276]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2022.11.23-01.44.16:629][276]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2022.11.23-01.44.16:629][276]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2022.11.23-01.44.16:629][276]LogInit: FAudioDevice initialized.
+[2022.11.23-01.44.16:629][276]LogAudio: Display: Audio Device (ID: 13) registered with world 'Level00'.
+[2022.11.23-01.44.16:684][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.44.16:684][276]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-01.44.16:686][276]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-22.44.16
+[2022.11.23-01.44.16:686][276]LogWorld: Bringing up level for play took: 0.001616
+[2022.11.23-01.44.16:688][276]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2022.11.23-01.44.16:689][276]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-01.44.16:690][276]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.44.16:693][276]PIE: Server logged in
+[2022.11.23-01.44.16:696][276]PIE: Play in editor total start time 0.13 seconds.
+[2022.11.23-01.44.16:707][276]LogViewport: Scene viewport resized to 1275x720, mode Windowed.
+[2022.11.23-01.44.22:175][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.44.22:175][602]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.44.22:175][602]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-01.44.22:180][602]LogBlueprintUserMessages: [GI_MemoryColor_C_11] Bye
+[2022.11.23-01.44.22:180][602]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-01.44.22:180][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.44.22:199][602]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-01.44.22:203][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.44.22:237][602]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-01.44.22:238][602]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.11.23-01.44.22:239][602]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.11.23-01.44.22:245][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.11.23-01.44.22:343][603]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.11.23-01.49.06:167][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.11.23-01.49.06:169][ 10]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/0/RD/IYQRRUJLEXFDMDUH0IO1G6_Auto2
+[2022.11.23-01.49.06:169][ 10]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/IYQRRUJLEXFDMDUH0IO1G6_Auto2AC2F822F492057307F07D3B4642158FD.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/0/RD/IYQRRUJLEXFDMDUH0IO1G6_Auto2.uasset'
+[2022.11.23-01.49.06:170][ 10]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MemoryColor/Maps/Level00' took 0.042
+[2022.11.23-01.49.06:170][ 10]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.042
+[2022.11.23-01.49.06:171][ 10]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MemoryColor/Core/ColorComander/BP_ColorComander] ([2] browsable assets)...
+[2022.11.23-01.49.06:219][ 10]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander]
+[2022.11.23-01.49.06:219][ 10]OBJ SavePackage: Finished generating thumbnails for package [/Game/MemoryColor/Core/ColorComander/BP_ColorComander]
+[2022.11.23-01.49.06:247][ 10]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MemoryColor/Core/ColorComander/BP_ColorComander_Auto2
+[2022.11.23-01.49.06:247][ 10]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander_Auto2378AE46C4C0CCE7A177E9BB6F69E2B71.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/MemoryColor/Core/ColorComander/BP_ColorComander_Auto2.uasset'
+[2022.11.23-01.49.06:248][ 10]LogFileHelpers: Auto-saving content packages took 0.078
+[2022.11.23-01.49.29:446][ 67]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.49.29:515][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.11.23-01.49.29:938][ 90]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.49.29:938][ 90]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComanderF8FF0F46494E11E474F5A794B0A49330.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.49.29:951][ 90]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.49.29:951][ 90]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.50.57:519][637]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-01.50.57:525][637]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-01.50.57:525][637]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-01.50.57:525][637]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.50.57:525][637]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-01.50.57:525][637]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-01.50.57:525][637]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.11.23-01.50.57:525][637]LogWorldPartition: Display: GenerateStreaming took 196 us
+[2022.11.23-01.50.57:525][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-01.50.57:526][637]PIE: New page: PIE session: Level00 (Nov 22, 2022, 7:50:57 PM)
+[2022.11.23-01.50.57:526][637]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.50.57:530][637]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-01.50.57:530][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004138s)
+[2022.11.23-01.50.57:530][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.004192s)
+[2022.11.23-01.50.57:530][637]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-01.50.57:530][637]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-01.50.57:531][637]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-01.50.57:531][637]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-01.50.57:532][637]LogWorldPartition: Display: WorldPartition initialize took 888 us
+[2022.11.23-01.50.57:532][637]LogPlayLevel: PIE: World Init took: (0.001763s)
+[2022.11.23-01.50.57:566][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.11.23-01.50.57:568][637]LogBlueprintUserMessages: [GI_MemoryColor_C_12] Hello
+[2022.11.23-01.50.57:568][637]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.11.23-01.50.57:568][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-01.50.57:568][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-01.50.57:568][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-01.50.57:568][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-01.50.57:568][637]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-01.50.57:568][637]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-01.50.57:568][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-01.50.57:568][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-01.50.57:568][637]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-01.50.57:568][637]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-01.50.57:569][637]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-01.50.57:570][637]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-01.50.57:588][637]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-01.50.57:588][637]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-01.50.57:588][637]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-01.50.57:588][637]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-01.50.57:589][637]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2022.11.23-01.50.57:589][637]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2022.11.23-01.50.57:590][637]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2022.11.23-01.50.57:590][637]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2022.11.23-01.50.57:590][637]LogInit: FAudioDevice initialized.
+[2022.11.23-01.50.57:590][637]LogAudio: Display: Audio Device (ID: 14) registered with world 'Level00'.
+[2022.11.23-01.50.57:635][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.50.57:636][637]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-01.50.57:637][637]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-22.50.57
+[2022.11.23-01.50.57:637][637]LogWorld: Bringing up level for play took: 0.001848
+[2022.11.23-01.50.57:639][637]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2022.11.23-01.50.57:641][637]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-01.50.57:641][637]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.50.57:644][637]PIE: Server logged in
+[2022.11.23-01.50.57:648][637]PIE: Play in editor total start time 0.124 seconds.
+[2022.11.23-01.50.57:662][637]LogViewport: Scene viewport resized to 1275x720, mode Windowed.
+[2022.11.23-01.51.10:323][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.51.10:323][412]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.51.10:323][412]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-01.51.10:326][412]LogBlueprintUserMessages: [GI_MemoryColor_C_12] Bye
+[2022.11.23-01.51.10:326][412]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-01.51.10:326][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.51.10:347][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-01.51.10:352][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.51.10:388][412]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-01.51.10:388][412]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.11.23-01.51.10:389][412]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.11.23-01.51.10:395][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.11.23-01.51.10:492][413]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.11.23-01.51.56:851][872]LogEditorTransaction: Undo Move Node
+[2022.11.23-01.52.43:970][176]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.52.44:042][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.11.23-01.52.44:556][209]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.52.44:556][209]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander43A005734EA0AE907E1A7C909F7A1CDE.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.52.44:567][209]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.52.44:567][209]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.54.09:857][195]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.54.09:928][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.11.23-01.54.14:791][700]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.54.14:861][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.11.23-01.54.16:257][852]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-01.54.16:263][852]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-01.54.16:263][852]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-01.54.16:263][852]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.54.16:263][852]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-01.54.16:263][852]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-01.54.16:263][852]LogWorldPartition: Display: GetPartitionedActors took 65 us
+[2022.11.23-01.54.16:264][852]LogWorldPartition: Display: GenerateStreaming took 295 us
+[2022.11.23-01.54.16:264][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-01.54.16:264][852]PIE: New page: PIE session: Level00 (Nov 22, 2022, 7:54:16 PM)
+[2022.11.23-01.54.16:264][852]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.54.16:269][852]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-01.54.16:270][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005400s)
+[2022.11.23-01.54.16:270][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.005479s)
+[2022.11.23-01.54.16:270][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-01.54.16:270][852]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-01.54.16:271][852]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-01.54.16:271][852]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-01.54.16:272][852]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.23-01.54.16:272][852]LogPlayLevel: PIE: World Init took: (0.002802s)
+[2022.11.23-01.54.16:315][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.11.23-01.54.16:318][852]LogBlueprintUserMessages: [GI_MemoryColor_C_13] Hello
+[2022.11.23-01.54.16:318][852]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.11.23-01.54.16:318][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-01.54.16:318][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-01.54.16:319][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-01.54.16:319][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-01.54.16:319][852]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-01.54.16:319][852]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-01.54.16:319][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-01.54.16:319][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-01.54.16:320][852]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-01.54.16:320][852]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-01.54.16:320][852]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-01.54.16:322][852]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-01.54.16:346][852]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-01.54.16:346][852]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-01.54.16:346][852]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-01.54.16:346][852]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-01.54.16:348][852]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2022.11.23-01.54.16:348][852]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2022.11.23-01.54.16:349][852]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2022.11.23-01.54.16:349][852]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2022.11.23-01.54.16:349][852]LogInit: FAudioDevice initialized.
+[2022.11.23-01.54.16:349][852]LogAudio: Display: Audio Device (ID: 15) registered with world 'Level00'.
+[2022.11.23-01.54.16:395][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.54.16:395][852]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-01.54.16:397][852]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-22.54.16
+[2022.11.23-01.54.16:398][852]LogWorld: Bringing up level for play took: 0.002039
+[2022.11.23-01.54.16:399][852]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2022.11.23-01.54.16:401][852]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-01.54.16:402][852]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.54.16:405][852]PIE: Server logged in
+[2022.11.23-01.54.16:408][852]PIE: Play in editor total start time 0.145 seconds.
+[2022.11.23-01.54.16:419][852]LogViewport: Scene viewport resized to 1275x720, mode Windowed.
+[2022.11.23-01.54.29:667][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.54.29:667][312]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.54.29:668][312]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-01.54.29:672][312]LogBlueprintUserMessages: [GI_MemoryColor_C_13] Bye
+[2022.11.23-01.54.29:672][312]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-01.54.29:672][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.54.29:694][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-01.54.29:699][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.54.29:733][312]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-01.54.29:733][312]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.11.23-01.54.29:735][312]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.11.23-01.54.29:740][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.11.23-01.54.29:956][313]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.11.23-01.56.22:137][476]LogEditorTransaction: Undo Move Node
+[2022.11.23-01.56.45:471][933]LogEditorTransaction: Undo Move Nodes
+[2022.11.23-01.57.06:820][331]LogEditorTransaction: Undo Move Nodes
+[2022.11.23-01.57.13:664][ 80]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.57.13:740][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.11.23-01.57.14:804][186]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.57.14:804][186]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComanderBAE734F740EE12039508709A3535184E.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.57.14:817][186]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.57.14:817][186]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.57.47:871][944]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.57.47:940][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.11.23-01.57.48:497][983]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.57.48:498][983]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander62BF28C8447F141BF5DA17B48C72FB01.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.57.48:509][983]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.57.48:509][983]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.58.22:366][694]LogEditorTransaction: Undo Move Nodes
+[2022.11.23-01.58.30:189][522]LogEditorTransaction: Undo Move Node
+[2022.11.23-01.58.38:708][398]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.58.38:777][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.11.23-01.58.39:648][478]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.58.39:648][478]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComanderB1D3C8614C514BC1504FE1887D6D9CB5.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.58.39:661][478]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.58.39:661][478]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-01.58.41:104][645]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-01.58.41:110][645]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-01.58.41:110][645]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-01.58.41:110][645]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.58.41:110][645]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-01.58.41:110][645]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-01.58.41:110][645]LogWorldPartition: Display: GetPartitionedActors took 45 us
+[2022.11.23-01.58.41:110][645]LogWorldPartition: Display: GenerateStreaming took 200 us
+[2022.11.23-01.58.41:110][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-01.58.41:111][645]PIE: New page: PIE session: Level00 (Nov 22, 2022, 7:58:41 PM)
+[2022.11.23-01.58.41:111][645]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.58.41:114][645]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-01.58.41:114][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003577s)
+[2022.11.23-01.58.41:114][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.003630s)
+[2022.11.23-01.58.41:114][645]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-01.58.41:115][645]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-01.58.41:115][645]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-01.58.41:115][645]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-01.58.41:116][645]LogWorldPartition: Display: WorldPartition initialize took 851 us
+[2022.11.23-01.58.41:116][645]LogPlayLevel: PIE: World Init took: (0.001691s)
+[2022.11.23-01.58.41:150][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.11.23-01.58.41:152][645]LogBlueprintUserMessages: [GI_MemoryColor_C_14] Hello
+[2022.11.23-01.58.41:152][645]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.11.23-01.58.41:152][645]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-01.58.41:152][645]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-01.58.41:152][645]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-01.58.41:152][645]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-01.58.41:152][645]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-01.58.41:152][645]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-01.58.41:152][645]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-01.58.41:152][645]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-01.58.41:153][645]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-01.58.41:153][645]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-01.58.41:153][645]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-01.58.41:154][645]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-01.58.41:172][645]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-01.58.41:172][645]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-01.58.41:172][645]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-01.58.41:172][645]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-01.58.41:173][645]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2022.11.23-01.58.41:173][645]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2022.11.23-01.58.41:174][645]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2022.11.23-01.58.41:175][645]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2022.11.23-01.58.41:175][645]LogInit: FAudioDevice initialized.
+[2022.11.23-01.58.41:175][645]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level00'.
+[2022.11.23-01.58.41:228][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.58.41:228][645]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-01.58.41:230][645]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-22.58.41
+[2022.11.23-01.58.41:230][645]LogWorld: Bringing up level for play took: 0.001963
+[2022.11.23-01.58.41:232][645]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2022.11.23-01.58.41:234][645]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-01.58.41:234][645]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-01.58.41:237][645]PIE: Server logged in
+[2022.11.23-01.58.41:240][645]PIE: Play in editor total start time 0.13 seconds.
+[2022.11.23-01.58.41:251][645]LogViewport: Scene viewport resized to 1275x720, mode Windowed.
+[2022.11.23-01.58.54:110][462]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_2075372016] YES
+[2022.11.23-01.58.55:236][531]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_2064718012] YES
+[2022.11.23-01.58.56:118][586]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_2067782013] YES
+[2022.11.23-01.58.59:592][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-01.58.59:592][799]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-01.58.59:593][799]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-01.58.59:596][799]LogBlueprintUserMessages: [GI_MemoryColor_C_14] Bye
+[2022.11.23-01.58.59:596][799]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-01.58.59:597][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.58.59:619][799]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-01.58.59:623][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-01.58.59:658][799]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-01.58.59:658][799]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.11.23-01.58.59:659][799]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.11.23-01.58.59:665][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.11.23-01.58.59:759][800]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.11.23-01.59.00:548][869]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-01.59.00:627][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.11.23-01.59.01:082][894]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-01.59.01:083][894]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander3039DA984F255828F451F69B3ADE8684.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-01.59.01:096][894]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-01.59.01:096][894]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
