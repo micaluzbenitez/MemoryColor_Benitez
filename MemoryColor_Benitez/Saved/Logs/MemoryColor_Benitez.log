@@ -2515,3 +2515,205 @@ Script Stack (0 frames):
 [2022.11.23-00.37.52:881][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.11.23-00.37.52:883][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
 [2022.11.23-00.37.52:917][683]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2022.11.23-00.39.56:434][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.11.23-00.39.56:438][258]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/0/RD/IYQRRUJLEXFDMDUH0IO1G6_Auto2
+[2022.11.23-00.39.56:438][258]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/IYQRRUJLEXFDMDUH0IO1G6_Auto2001A9F014104644589CD53857DD612DB.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/0/RD/IYQRRUJLEXFDMDUH0IO1G6_Auto2.uasset'
+[2022.11.23-00.39.56:440][258]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/7/2U/0ZQYA7ZX55CUUUXJ4MY3NH_Auto2
+[2022.11.23-00.39.56:441][258]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/0ZQYA7ZX55CUUUXJ4MY3NH_Auto2869160C847852C5AAD9C69883DDF81DA.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/7/2U/0ZQYA7ZX55CUUUXJ4MY3NH_Auto2.uasset'
+[2022.11.23-00.39.56:442][258]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/7/NO/ZRRUD6TYTU55FTWSD6Y231_Auto2
+[2022.11.23-00.39.56:443][258]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/ZRRUD6TYTU55FTWSD6Y231_Auto25739722D4C102DD03A4602A0F6330C34.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/7/NO/ZRRUD6TYTU55FTWSD6Y231_Auto2.uasset'
+[2022.11.23-00.39.56:445][258]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/8/LX/TEH3327XLQSVCJNV3T0MQ7_Auto2
+[2022.11.23-00.39.56:445][258]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/TEH3327XLQSVCJNV3T0MQ7_Auto2EFED1D4947C48D0E31456899CC3B1B50.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/8/LX/TEH3327XLQSVCJNV3T0MQ7_Auto2.uasset'
+[2022.11.23-00.39.56:446][258]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/A/A2/9VQISV4X32O8EL5PY4LD0B_Auto2
+[2022.11.23-00.39.56:447][258]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/9VQISV4X32O8EL5PY4LD0B_Auto2B9D9F2B34C0EBBB6268F1EBFED69DBDE.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/A/A2/9VQISV4X32O8EL5PY4LD0B_Auto2.uasset'
+[2022.11.23-00.39.56:449][258]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/D/93/PQWCDU327IZ3ISNEUUF6JJ_Auto2
+[2022.11.23-00.39.56:449][258]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/PQWCDU327IZ3ISNEUUF6JJ_Auto238257B004390A06B763FCEA9341B925D.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/D/93/PQWCDU327IZ3ISNEUUF6JJ_Auto2.uasset'
+[2022.11.23-00.39.56:451][258]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/E/N2/WYCSGVYUHBHC3SAQMVKKKS_Auto2
+[2022.11.23-00.39.56:452][258]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/WYCSGVYUHBHC3SAQMVKKKS_Auto2347EB874477E5586BAF140A73562E967.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/Autosaves/Game/__ExternalActors__/MemoryColor/Maps/Level00/E/N2/WYCSGVYUHBHC3SAQMVKKKS_Auto2.uasset'
+[2022.11.23-00.39.56:453][258]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MemoryColor/Maps/Level00' took 0.061
+[2022.11.23-00.39.56:453][258]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.061
+[2022.11.23-00.41.42:529][885]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-00.41.42:601][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.11.23-00.41.43:150][927]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-00.41.43:150][927]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander4BC0D4B6406E9007D45AD08D94A9132B.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-00.41.43:162][927]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-00.41.43:162][927]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-00.43.01:963][863]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-00.43.02:028][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.11.23-00.43.02:445][888]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-00.43.02:446][888]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander995143904CDB6B6153EB629D10160776.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-00.43.02:459][888]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-00.43.02:459][888]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-00.43.03:224][974]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-00.43.03:230][974]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-00.43.03:230][974]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-00.43.03:230][974]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-00.43.03:230][974]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-00.43.03:230][974]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-00.43.03:230][974]LogWorldPartition: Display: GetPartitionedActors took 45 us
+[2022.11.23-00.43.03:230][974]LogWorldPartition: Display: GenerateStreaming took 197 us
+[2022.11.23-00.43.03:230][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-00.43.03:230][974]PIE: New page: PIE session: Level00 (Nov 22, 2022, 6:43:03 PM)
+[2022.11.23-00.43.03:230][974]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-00.43.03:234][974]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-00.43.03:234][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003527s)
+[2022.11.23-00.43.03:234][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.003581s)
+[2022.11.23-00.43.03:234][974]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-00.43.03:234][974]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-00.43.03:235][974]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-00.43.03:235][974]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-00.43.03:235][974]LogWorldPartition: Display: WorldPartition initialize took 833 us
+[2022.11.23-00.43.03:236][974]LogPlayLevel: PIE: World Init took: (0.001662s)
+[2022.11.23-00.43.03:269][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.11.23-00.43.03:272][974]LogBlueprintUserMessages: [GI_MemoryColor_C_14] Hello
+[2022.11.23-00.43.03:272][974]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.11.23-00.43.03:272][974]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-00.43.03:272][974]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-00.43.03:272][974]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-00.43.03:272][974]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-00.43.03:272][974]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-00.43.03:272][974]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-00.43.03:272][974]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-00.43.03:272][974]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-00.43.03:273][974]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-00.43.03:273][974]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-00.43.03:273][974]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-00.43.03:275][974]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-00.43.03:293][974]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-00.43.03:293][974]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-00.43.03:294][974]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-00.43.03:294][974]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-00.43.03:294][974]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2022.11.23-00.43.03:294][974]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2022.11.23-00.43.03:296][974]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2022.11.23-00.43.03:296][974]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2022.11.23-00.43.03:296][974]LogInit: FAudioDevice initialized.
+[2022.11.23-00.43.03:296][974]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level00'.
+[2022.11.23-00.43.03:346][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-00.43.03:346][974]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-00.43.03:348][974]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-21.43.03
+[2022.11.23-00.43.03:348][974]LogWorld: Bringing up level for play took: 0.001867
+[2022.11.23-00.43.03:350][974]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2022.11.23-00.43.03:352][974]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-00.43.03:352][974]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-00.43.03:356][974]PIE: Server logged in
+[2022.11.23-00.43.03:359][974]PIE: Play in editor total start time 0.13 seconds.
+[2022.11.23-00.43.03:373][974]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.11.23-00.43.10:540][414]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_2075372016] YES
+[2022.11.23-00.43.11:727][484]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_1850003010] YES
+[2022.11.23-00.43.13:005][559]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_2070688014] YES
+[2022.11.23-00.43.13:864][611]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_2067782013] YES
+[2022.11.23-00.43.17:227][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-00.43.17:227][814]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-00.43.17:228][814]LogSlate: Window 'MemoryColor_Benitez Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.23-00.43.17:233][814]LogBlueprintUserMessages: [GI_MemoryColor_C_14] Bye
+[2022.11.23-00.43.17:233][814]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-00.43.17:233][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-00.43.17:256][814]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-00.43.17:260][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-00.43.17:296][814]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-00.43.17:296][814]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.11.23-00.43.17:297][814]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.11.23-00.43.17:303][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.11.23-00.43.17:383][815]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2022.11.23-00.43.34:838][737]BlueprintLog: New page: Collapse to Function
+[2022.11.23-00.43.59:294][582]LogEditorTransaction: Undo Move Nodes
+[2022.11.23-00.44.00:205][634]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-00.44.00:272][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.11.23-00.44.00:783][675]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-00.44.00:783][675]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander698C61674BAFA05664938D9C47CBFBAF.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-00.44.00:794][675]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-00.44.00:794][675]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-00.44.14:331][175]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-00.44.14:403][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.11.23-00.44.14:856][211]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-00.44.14:856][211]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComanderCDE191964A6809C110838A8E4D4A2427.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-00.44.14:868][211]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-00.44.14:868][211]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-00.44.19:940][791]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-00.44.19:940][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-00.45.48:911][185]LogEditorTransaction: Undo Move Nodes
+[2022.11.23-00.45.51:959][469]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-00.45.52:022][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.11.23-00.45.52:529][509]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-00.45.52:530][509]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComanderA4C25AAB41EFC0F9AD41F9BBBDF4B82D.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-00.45.52:541][509]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-00.45.52:541][509]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-00.45.53:772][603]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.23-00.45.53:780][603]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.23-00.45.53:780][603]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.23-00.45.53:780][603]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-00.45.53:780][603]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.23-00.45.53:780][603]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.23-00.45.53:780][603]LogWorldPartition: Display: GetPartitionedActors took 73 us
+[2022.11.23-00.45.53:780][603]LogWorldPartition: Display: GenerateStreaming took 332 us
+[2022.11.23-00.45.53:780][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.23-00.45.53:780][603]PIE: New page: PIE session: Level00 (Nov 22, 2022, 6:45:53 PM)
+[2022.11.23-00.45.53:819][603]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-00.45.53:823][603]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.23-00.45.53:823][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003463s)
+[2022.11.23-00.45.53:823][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.003541s)
+[2022.11.23-00.45.53:823][603]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.23-00.45.53:823][603]LogAIModule: Creating AISystem for world Level00
+[2022.11.23-00.45.53:824][603]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.23-00.45.53:824][603]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.23-00.45.53:824][603]LogWorldPartition: Display: WorldPartition initialize took 874 us
+[2022.11.23-00.45.53:824][603]LogPlayLevel: PIE: World Init took: (0.001696s)
+[2022.11.23-00.45.53:853][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.11.23-00.45.53:857][603]LogBlueprintUserMessages: [GI_MemoryColor_C_15] Hello
+[2022.11.23-00.45.53:857][603]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.11.23-00.45.53:857][603]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.23-00.45.53:857][603]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.23-00.45.53:857][603]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.23-00.45.53:857][603]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.23-00.45.53:857][603]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.23-00.45.53:858][603]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.23-00.45.53:858][603]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.23-00.45.53:858][603]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.23-00.45.53:859][603]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.23-00.45.53:859][603]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.23-00.45.53:859][603]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.23-00.45.53:861][603]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.23-00.45.53:888][603]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAWIDE (NVIDIA High Definition Audio)
+[2022.11.23-00.45.53:888][603]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.23-00.45.53:888][603]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.23-00.45.53:888][603]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.23-00.45.53:889][603]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2022.11.23-00.45.53:889][603]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2022.11.23-00.45.53:891][603]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2022.11.23-00.45.53:891][603]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2022.11.23-00.45.53:891][603]LogInit: FAudioDevice initialized.
+[2022.11.23-00.45.53:891][603]LogAudio: Display: Audio Device (ID: 17) registered with world 'Level00'.
+[2022.11.23-00.45.53:902][603]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.11.23-00.45.53:903][603]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.11.22-21.45.53
+[2022.11.23-00.45.53:903][603]LogWorld: Bringing up level for play took: 0.001585
+[2022.11.23-00.45.53:905][603]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2022.11.23-00.45.53:907][603]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=98.337
+[2022.11.23-00.45.53:907][603]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.23-00.45.53:908][603]PIE: Server logged in
+[2022.11.23-00.45.53:909][603]PIE: Play in editor total start time 0.131 seconds.
+[2022.11.23-00.46.01:336][ 13]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_2064718012] YES
+[2022.11.23-00.46.01:909][ 44]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_2064718012] YES
+[2022.11.23-00.46.02:788][ 91]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_2070688014] YES
+[2022.11.23-00.46.03:379][123]LogBlueprintUserMessages: [BP_ColorButton_C_UAID_2C4D544F4610E73901_2070688014] YES
+[2022.11.23-00.46.05:050][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-00.46.05:050][212]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.11.23-00.46.05:050][212]LogBlueprintUserMessages: [GI_MemoryColor_C_15] Bye
+[2022.11.23-00.46.05:050][212]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.11.23-00.46.05:050][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-00.46.05:071][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.23-00.46.05:076][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.23-00.46.05:106][212]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.23-00.46.05:106][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.11.23-00.46.05:107][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.11.23-00.46.05:111][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.23-00.46.05:113][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.11.23-00.46.05:222][213]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2022.11.23-00.46.51:311][480]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-00.46.51:371][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.11.23-00.46.52:018][540]LogSavePackage: Moving output files for package: /Game/MemoryColor/Core/ColorComander/BP_ColorComander
+[2022.11.23-00.46.52:019][540]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/BP_ColorComander326F59A6407DAF9960249DB766D5BC63.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Core/ColorComander/BP_ColorComander.uasset'
+[2022.11.23-00.46.52:029][540]AssetCheck: New page: Asset Save: BP_ColorComander
+[2022.11.23-00.46.52:029][540]LogContentValidation: Display: Validating Blueprint /Game/MemoryColor/Core/ColorComander/BP_ColorComander.BP_ColorComander
+[2022.11.23-00.46.56:647][ 81]BlueprintLog: New page: Compile BP_ColorComander
+[2022.11.23-00.46.56:706][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
