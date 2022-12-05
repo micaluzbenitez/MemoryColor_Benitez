@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "h:\\aa facu\\unreal\\memorycolor_benitez\\memorycolor_benitez\\source\\memorycolor_benitez\\colorcomander.cpp",
+        "ProvidedModule": "",
+        "PCH": "h:\\aa facu\\unreal\\memorycolor_benitez\\memorycolor_benitez\\intermediate\\build\\win64\\memorycolor_benitez\\shipping\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "h:\\aa facu\\unreal\\memorycolor_benitez\\memorycolor_benitez\\intermediate\\build\\win64\\unrealgame\\shipping\\memorycolor_benitez\\definitions.memorycolor_benitez.h",
+            "h:\\aa facu\\unreal\\memorycolor_benitez\\memorycolor_benitez\\source\\memorycolor_benitez\\colorcomander.h",
+            "h:\\aa facu\\unreal\\memorycolor_benitez\\memorycolor_benitez\\intermediate\\build\\win64\\unrealgame\\inc\\memorycolor_benitez\\colorcomander.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\textrendercomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\textrendercomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

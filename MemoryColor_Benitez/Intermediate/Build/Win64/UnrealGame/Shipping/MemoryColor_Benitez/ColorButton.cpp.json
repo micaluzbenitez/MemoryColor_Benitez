@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "h:\\aa facu\\unreal\\memorycolor_benitez\\memorycolor_benitez\\source\\memorycolor_benitez\\colorbutton.cpp",
+        "ProvidedModule": "",
+        "PCH": "h:\\aa facu\\unreal\\memorycolor_benitez\\memorycolor_benitez\\intermediate\\build\\win64\\memorycolor_benitez\\shipping\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "h:\\aa facu\\unreal\\memorycolor_benitez\\memorycolor_benitez\\intermediate\\build\\win64\\unrealgame\\shipping\\memorycolor_benitez\\definitions.memorycolor_benitez.h",
+            "h:\\aa facu\\unreal\\memorycolor_benitez\\memorycolor_benitez\\source\\memorycolor_benitez\\colorbutton.h",
+            "h:\\aa facu\\unreal\\memorycolor_benitez\\memorycolor_benitez\\intermediate\\build\\win64\\unrealgame\\inc\\memorycolor_benitez\\colorbutton.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
