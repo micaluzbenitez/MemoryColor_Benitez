@@ -833,3 +833,326 @@ Script Stack (0 frames):
 [2022.12.05-01.51.54:768][631]LogSlate: Window 'Message' being destroyed
 [2022.12.05-01.51.54:771][631]Message dialog closed, result: Cancel, title: Message, text: FilenameToLongPackageName failed to convert ''. The Result would be indistinguishable from using '' as the InFilename.
 [2022.12.05-01.52.38:897][798]LogDerivedDataCache: C:/Users/Mica/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.071 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.05-01.53.40:455][786]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2022.12.05-01.53.42:123][786]LogSlate: Window 'Save Content' being destroyed
+[2022.12.05-01.53.42:205][786]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MemoryColor/Maps/Level00.Level00
+[2022.12.05-01.53.42:205][786]Cmd: MAP LOAD FILE="H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/MemoryColor/Maps/Level00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.05-01.53.42:205][786]LightingResults: New page: Lighting Build
+[2022.12.05-01.53.42:206][786]LoadErrors: New page: Loading map: Level00.umap
+[2022.12.05-01.53.42:208][786]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.05-01.53.42:208][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.05-01.53.42:212][786]MapCheck: New page: Map Check
+[2022.12.05-01.53.42:212][786]LightingResults: New page: Lighting Build
+[2022.12.05-01.53.42:233][786]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.05-01.53.42:285][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.12.05-01.53.42:296][786]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.12.05-01.53.42:296][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.05-01.53.42:297][786]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2022.12.05-01.53.42:297][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.05-01.53.42:319][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.12.05-01.53.42:340][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.12.05-01.53.42:363][786]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level00'.
+[2022.12.05-01.53.42:363][786]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.05-01.53.42:364][786]LogAIModule: Creating AISystem for world Level00
+[2022.12.05-01.53.42:364][786]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.12.05-01.53.42:364][786]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.12.05-01.53.42:442][786]LogStaticMesh: StaticMesh /Game/StarterContent/Shapes/Shape_Plane.Shape_Plane should be resaved to improve async compilation performance.
+[2022.12.05-01.53.42:492][786]LogWorldPartition: Display: WorldPartition initialize took 127 ms
+[2022.12.05-01.53.42:498][786]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.05-01.53.42:523][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.12.05-01.53.42:530][786]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.05-01.53.42:530][786]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.141ms to complete.
+[2022.12.05-01.53.42:530][786]LogFileHelpers: Loading map 'Level00' took 0.325
+[2022.12.05-01.53.57:440][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.12.05-01.53.58:585][496]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.05-01.53.58:645][496]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle
+	Asset Type: Blueprint
+[2022.12.05-01.53.58:854][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.12.05-01.53.58:896][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.12.05-01.53.58:919][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.12.05-01.53.58:942][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.12.05-01.54.08:824][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Audio/FirstPersonTemplateWeaponFire02.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Audio/FirstPersonTemplateWeaponFire02.uasset
+[2022.12.05-01.54.08:824][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Textures/T_FPGun_M.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Textures/T_FPGun_M.uasset
+[2022.12.05-01.54.08:824][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/BaseMaterial.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/BaseMaterial.uasset
+[2022.12.05-01.54.08:824][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Textures/T_FPGun_N.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Textures/T_FPGun_N.uasset
+[2022.12.05-01.54.08:824][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/FirstPersonProjectileMaterial.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/FirstPersonProjectileMaterial.uasset
+[2022.12.05-01.54.08:825][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/M_FPGun.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/M_FPGun.uasset
+[2022.12.05-01.54.08:825][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Mesh/FirstPersonProjectileMesh.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Mesh/FirstPersonProjectileMesh.uasset
+[2022.12.05-01.54.08:825][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Mesh/SK_FPGun.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Mesh/SK_FPGun.uasset
+[2022.12.05-01.54.08:825][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Mesh/SK_FPGun_Physics.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Mesh/SK_FPGun_Physics.uasset
+[2022.12.05-01.54.08:826][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Mesh/SK_FPGun_Skeleton.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
+[2022.12.05-01.54.08:826][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2022.12.05-01.54.08:827][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2022.12.05-01.54.08:827][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/MaterialLayers/ML_Screen.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset
+[2022.12.05-01.54.08:827][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2022.12.05-01.54.08:827][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/MaterialLayers/T_ML_Aluminum01.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2022.12.05-01.54.08:827][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2022.12.05-01.54.08:834][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2022.12.05-01.54.08:834][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FPWeapon/Content/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2022.12.05-01.54.08:834][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MF_ProcGrid.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/LevelPrototyping/Materials/MF_ProcGrid.uasset
+[2022.12.05-01.54.08:835][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MI_PrototypeGrid_Gray.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset
+[2022.12.05-01.54.08:836][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/M_PrototypeGrid.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset
+[2022.12.05-01.54.08:837][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Textures/T_GridChecker_A.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/LevelPrototyping/Textures/T_GridChecker_A.uasset
+[2022.12.05-01.54.08:838][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Meshes/SM_Cube.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/LevelPrototyping/Meshes/SM_Cube.uasset
+[2022.12.05-01.54.08:840][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Animations/FirstPersonFire_Montage.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Animations/FirstPersonFire_Montage.uasset
+[2022.12.05-01.54.08:840][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Animations/FirstPerson_AnimBP.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Animations/FirstPerson_AnimBP.uasset
+[2022.12.05-01.54.08:840][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Animations/FirstPerson_Fire.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Animations/FirstPerson_Fire.uasset
+[2022.12.05-01.54.08:841][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Animations/FirstPerson_Idle.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Animations/FirstPerson_Idle.uasset
+[2022.12.05-01.54.08:841][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Animations/FirstPerson_JumpEnd.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Animations/FirstPerson_JumpEnd.uasset
+[2022.12.05-01.54.08:841][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Animations/FirstPerson_JumpLoop.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Animations/FirstPerson_JumpLoop.uasset
+[2022.12.05-01.54.08:841][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Animations/FirstPerson_JumpStart.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Animations/FirstPerson_JumpStart.uasset
+[2022.12.05-01.54.08:841][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Animations/FirstPerson_Run.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Animations/FirstPerson_Run.uasset
+[2022.12.05-01.54.08:842][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Materials/M_UE4Man_Body.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Materials/M_UE4Man_Body.uasset
+[2022.12.05-01.54.08:842][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Mesh/SK_Mannequin_Arms.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms.uasset
+[2022.12.05-01.54.08:842][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset
+[2022.12.05-01.54.08:842][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset
+[2022.12.05-01.54.08:842][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Textures/UE4_LOGO_CARD.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Textures/UE4_LOGO_CARD.uasset
+[2022.12.05-01.54.08:843][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2022.12.05-01.54.08:843][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Textures/UE4_Mannequin__normals.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Textures/UE4_Mannequin__normals.uasset
+[2022.12.05-01.54.08:843][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2022.12.05-01.54.08:843][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2022.12.05-01.54.08:844][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2022.12.05-01.54.08:844][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2022.12.05-01.54.08:844][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2022.12.05-01.54.08:844][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2022.12.05-01.54.08:845][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2022.12.05-01.54.08:845][152]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/Standard/FirstPersonArms/Content/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset to H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPersonArms/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2022.12.05-01.54.08:894][152]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack)
+[2022.12.05-01.54.08:896][152]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2022.12.05-01.54.08:896][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Maps/FirstPersonMap.umap" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPerson/Maps/FirstPersonMap.umap"
+[2022.12.05-01.54.08:906][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Maps/FirstPersonMap_BuiltData.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPerson/Maps/FirstPersonMap_BuiltData.uasset"
+[2022.12.05-01.54.08:907][152]LogPackFactory: Error: Unable to copy file "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset".
+[2022.12.05-01.54.08:907][152]LogPackFactory: Error: Unable to copy file "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset".
+[2022.12.05-01.54.08:907][152]LogPackFactory: Error: Unable to copy file "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset".
+[2022.12.05-01.54.08:908][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Blueprints/BP_Rifle.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPerson/Blueprints/BP_Rifle.uasset"
+[2022.12.05-01.54.08:908][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U.uasset"
+[2022.12.05-01.54.08:909][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/CL/381LM03PFI8AF9NED1SEV2.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/CL/381LM03PFI8AF9NED1SEV2.uasset"
+[2022.12.05-01.54.08:909][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/GO/I8WEFD3RY9V3NVQLSU6QM4.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/GO/I8WEFD3RY9V3NVQLSU6QM4.uasset"
+[2022.12.05-01.54.08:910][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/7P/QZX5AESKLO855EVPT5JU20.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/7P/QZX5AESKLO855EVPT5JU20.uasset"
+[2022.12.05-01.54.08:911][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5.uasset"
+[2022.12.05-01.54.08:911][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2J/R4MRTH8FEAO7ML1BCJFIZ2.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2J/R4MRTH8FEAO7ML1BCJFIZ2.uasset"
+[2022.12.05-01.54.08:912][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/NB/NWWEVRQSGT6ARVZ8HQLCM9.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/NB/NWWEVRQSGT6ARVZ8HQLCM9.uasset"
+[2022.12.05-01.54.08:912][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM.uasset"
+[2022.12.05-01.54.08:913][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JT/XIHYQ8ZTVL6F9GCUZX1AQ2.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JT/XIHYQ8ZTVL6F9GCUZX1AQ2.uasset"
+[2022.12.05-01.54.08:914][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/RN/55P1SMQLAF7OK6300D5I8N.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/RN/55P1SMQLAF7OK6300D5I8N.uasset"
+[2022.12.05-01.54.08:914][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/80/QQN0UFFAA797E1UT4IMD29.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/80/QQN0UFFAA797E1UT4IMD29.uasset"
+[2022.12.05-01.54.08:915][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OD/YPSPM063O6XAJVKSDHY2JX.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OD/YPSPM063O6XAJVKSDHY2JX.uasset"
+[2022.12.05-01.54.08:915][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset"
+[2022.12.05-01.54.08:916][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/QL/31H7DJTVWEX04CCMX5U1SN.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/QL/31H7DJTVWEX04CCMX5U1SN.uasset"
+[2022.12.05-01.54.08:916][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/DI/1JZHHCOBVQ2F5XRUWSES1X.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/DI/1JZHHCOBVQ2F5XRUWSES1X.uasset"
+[2022.12.05-01.54.08:917][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/5X/6EW8RE9VA2GGHRWK614FCI.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/5X/6EW8RE9VA2GGHRWK614FCI.uasset"
+[2022.12.05-01.54.08:917][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/DF/1GID8P6B00XRWKYCXU7HT1.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/DF/1GID8P6B00XRWKYCXU7HT1.uasset"
+[2022.12.05-01.54.08:918][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/GI/GZM47KS5FPIQH5TLSYC1ME.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/GI/GZM47KS5FPIQH5TLSYC1ME.uasset"
+[2022.12.05-01.54.08:919][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB.uasset"
+[2022.12.05-01.54.08:919][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/0O/4IRR0TBO7VGKMMYSZRQTB1.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/0O/4IRR0TBO7VGKMMYSZRQTB1.uasset"
+[2022.12.05-01.54.08:920][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/WS/X084A70TPBKFLJDCV2U5PN.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/WS/X084A70TPBKFLJDCV2U5PN.uasset"
+[2022.12.05-01.54.08:920][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/AI/0XWE3RNM2XQC0ST1KXG02O.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/AI/0XWE3RNM2XQC0ST1KXG02O.uasset"
+[2022.12.05-01.54.08:921][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/C8/Z38FT77DKZLKDXTQ7PZNM4.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/C8/Z38FT77DKZLKDXTQ7PZNM4.uasset"
+[2022.12.05-01.54.08:921][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH.uasset"
+[2022.12.05-01.54.08:922][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/CR/SRVPLA8UNZ8XIIP0E036DI.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/CR/SRVPLA8UNZ8XIIP0E036DI.uasset"
+[2022.12.05-01.54.08:922][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/0Z/5RQIHCZ9W3UXRGL4LTLQAK.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/0Z/5RQIHCZ9W3UXRGL4LTLQAK.uasset"
+[2022.12.05-01.54.08:923][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YY/ZEL6NJUQJU43LAD9X3NXTT.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YY/ZEL6NJUQJU43LAD9X3NXTT.uasset"
+[2022.12.05-01.54.08:924][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV.uasset"
+[2022.12.05-01.54.08:924][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.uasset"
+[2022.12.05-01.54.08:924][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R.uasset"
+[2022.12.05-01.54.08:925][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/PT/ZXUQMNLL9GZ2UNQ5D0R4A4.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/PT/ZXUQMNLL9GZ2UNQ5D0R4A4.uasset"
+[2022.12.05-01.54.08:925][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HC/FI3CQDKJY4J00D2B21FYQZ.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HC/FI3CQDKJY4J00D2B21FYQZ.uasset"
+[2022.12.05-01.54.08:926][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778.uasset"
+[2022.12.05-01.54.08:926][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE.uasset"
+[2022.12.05-01.54.08:926][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CW/6HT16P8P5RAXNJG3EVYWE9.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CW/6HT16P8P5RAXNJG3EVYWE9.uasset"
+[2022.12.05-01.54.08:927][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/SZ/D1AHM62WL9TXSNPYQDXQMZ.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/SZ/D1AHM62WL9TXSNPYQDXQMZ.uasset"
+[2022.12.05-01.54.08:927][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Y4/KY9ZXT77SAVGWBRTNCFCSC.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Y4/KY9ZXT77SAVGWBRTNCFCSC.uasset"
+[2022.12.05-01.54.08:928][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47.uasset"
+[2022.12.05-01.54.08:928][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JW/IY5R6I5N0YWU9LYWKXFXH9.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JW/IY5R6I5N0YWU9LYWKXFXH9.uasset"
+[2022.12.05-01.54.08:929][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6K/53TOYTOLDEUBMS5SLUFP3V.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6K/53TOYTOLDEUBMS5SLUFP3V.uasset"
+[2022.12.05-01.54.08:929][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OJ/9MHHMH0XHVZ04YDZ7NPC32.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OJ/9MHHMH0XHVZ04YDZ7NPC32.uasset"
+[2022.12.05-01.54.08:929][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q2/TOKV0KMMZ7RIQ78R0UEDQL.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q2/TOKV0KMMZ7RIQ78R0UEDQL.uasset"
+[2022.12.05-01.54.08:930][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9.uasset"
+[2022.12.05-01.54.08:930][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/51/6JKB4DNGJP09QUHY23FHRV.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/51/6JKB4DNGJP09QUHY23FHRV.uasset"
+[2022.12.05-01.54.08:931][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/DD/654T6CAPVSXAN1LXEX71EI.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/DD/654T6CAPVSXAN1LXEX71EI.uasset"
+[2022.12.05-01.54.08:931][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/EF/G3O7YJR3QU51OHQGRYB635.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/EF/G3O7YJR3QU51OHQGRYB635.uasset"
+[2022.12.05-01.54.08:932][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YQ/KT6JL4FVCNJJ9VFOCSF32J.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YQ/KT6JL4FVCNJJ9VFOCSF32J.uasset"
+[2022.12.05-01.54.08:933][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/P8/0GJ9TLQE2YKOIFZ6YHG33H.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/P8/0GJ9TLQE2YKOIFZ6YHG33H.uasset"
+[2022.12.05-01.54.08:933][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/VO/VMN4G7K3NKKV6F8HTPHHDB.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/VO/VMN4G7K3NKKV6F8HTPHHDB.uasset"
+[2022.12.05-01.54.08:933][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G.uasset"
+[2022.12.05-01.54.08:934][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2W/U0XT0R08XQA6C15NK8ILFA.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2W/U0XT0R08XQA6C15NK8ILFA.uasset"
+[2022.12.05-01.54.08:935][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/91/64ROQWZ22CQVFJMU4XABML.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/91/64ROQWZ22CQVFJMU4XABML.uasset"
+[2022.12.05-01.54.08:935][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/RJ/Z7CLKO8GGJ7RXH5PUAF4T4.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/RJ/Z7CLKO8GGJ7RXH5PUAF4T4.uasset"
+[2022.12.05-01.54.08:935][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XJ/HL558UUAGCS9HVVOI0S7PX.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XJ/HL558UUAGCS9HVVOI0S7PX.uasset"
+[2022.12.05-01.54.08:936][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0W/E1FKEGVKGOLM7HGLQPCIPO.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0W/E1FKEGVKGOLM7HGLQPCIPO.uasset"
+[2022.12.05-01.54.08:936][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/MX/R1GV431P5FDO08OFULRA01.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/MX/R1GV431P5FDO08OFULRA01.uasset"
+[2022.12.05-01.54.08:937][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S.uasset"
+[2022.12.05-01.54.08:937][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/V3/ICWLYCF62EJ63XTK5ZSZWV.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/V3/ICWLYCF62EJ63XTK5ZSZWV.uasset"
+[2022.12.05-01.54.08:937][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/3/9Y/O1HBCAIOGYKE5W89K0N3EC.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/3/9Y/O1HBCAIOGYKE5W89K0N3EC.uasset"
+[2022.12.05-01.54.08:938][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA.uasset"
+[2022.12.05-01.54.08:938][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/6/2R/TKXMGQLWGTB6FEH6EYY7NK.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/6/2R/TKXMGQLWGTB6FEH6EYY7NK.uasset"
+[2022.12.05-01.54.08:939][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/7/ZX/JUGNISA5MV8V8FE530PDPQ.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/7/ZX/JUGNISA5MV8V8FE530PDPQ.uasset"
+[2022.12.05-01.54.08:939][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/8/9P/KRNGZ1PU2Y3ACDDE2D2XC5.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/8/9P/KRNGZ1PU2Y3ACDDE2D2XC5.uasset"
+[2022.12.05-01.54.08:940][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/A/JH/8TTAOMHN06NOHWGDJXKH1N.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/A/JH/8TTAOMHN06NOHWGDJXKH1N.uasset"
+[2022.12.05-01.54.08:940][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/D/PH/WQFJJGR81PTWACYGUC1CP5.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/D/PH/WQFJJGR81PTWACYGUC1CP5.uasset"
+[2022.12.05-01.54.08:940][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/E/2M/ESWAVQBPX1XK2OH2YGVZCM.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/E/2M/ESWAVQBPX1XK2OH2YGVZCM.uasset"
+[2022.12.05-01.54.08:941][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/E/ZB/64YLC9YROSMO90SC5KR0PE.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/E/ZB/64YLC9YROSMO90SC5KR0PE.uasset"
+[2022.12.05-01.54.08:941][152]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.uasset" to "H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.uasset"
+[2022.12.05-01.54.09:163][152]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap_BuiltData
+[2022.12.05-01.54.09:163][152]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/FirstPersonMap_BuiltData7B9206AB4A0D244DA69E22ADF84577C2.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/FirstPerson/Maps/FirstPersonMap_BuiltData.uasset'
+[2022.12.05-01.54.09:173][152]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2022.12.05-01.54.09:174][152]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2022.12.05-01.54.09:174][152]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview'
+[2022.12.05-01.54.09:182][152]AssetCheck: New page: Asset Save: FirstPersonMap_BuiltData
+[2022.12.05-01.54.09:182][152]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPerson/Maps/FirstPersonMap_BuiltData.FirstPersonMap_BuiltData
+[2022.12.05-01.54.10:573][215]LogSlate: Window 'Content Browser' being destroyed
+[2022.12.05-01.54.10:576][215]LogSlate: Window 'Content Browser' being destroyed
+[2022.12.05-01.54.12:645][325]LogSlate: Window 'Add Content to the Project' being destroyed
+[2022.12.05-01.54.15:707][472]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle_C
+[2022.12.05-01.54.15:708][472]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle_C
+[2022.12.05-01.54.15:709][472]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle as actor: BP_Rifle_C /Game/MemoryColor/Maps/Level00.Level00:PersistentLevel.BP_Rifle_C_0
+[2022.12.05-01.54.15:710][472]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle as actor: BP_Rifle_C /Game/MemoryColor/Maps/Level00.Level00:PersistentLevel.BP_Rifle_C_0
+[2022.12.05-01.54.16:504][525]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle_C
+[2022.12.05-01.54.16:504][525]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle_C
+[2022.12.05-01.54.16:506][525]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle as actor: BP_Rifle_C /Game/MemoryColor/Maps/Level00.Level00:PersistentLevel.BP_Rifle_C_UAID_50EBF694E1F2FE4F01_1900997287
+[2022.12.05-01.54.16:508][525]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle as actor: BP_Rifle_C /Game/MemoryColor/Maps/Level00.Level00:PersistentLevel.BP_Rifle_C_UAID_50EBF694E1F2FE4F01_1900997287
+[2022.12.05-01.54.26:615][ 12]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.05-01.54.26:621][ 12]LogWorldPartition: Display: GenerateStreaming started...
+[2022.12.05-01.54.26:621][ 12]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.12.05-01.54.26:621][ 12]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.05-01.54.26:621][ 12]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.12.05-01.54.26:621][ 12]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.12.05-01.54.26:621][ 12]LogWorldPartition: Display: GetPartitionedActors took 58 us
+[2022.12.05-01.54.26:621][ 12]LogWorldPartition: Display: GenerateStreaming took 211 us
+[2022.12.05-01.54.26:621][ 12]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.12.05-01.54.26:622][ 12]LogPlayLevel: [PlayLevel] Compiling WBP_MainMenu before play...
+[2022.12.05-01.54.26:652][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.12.05-01.54.26:654][ 12]LogPlayLevel: PlayLevel: Blueprint regeneration took 32 ms (1 blueprints)
+[2022.12.05-01.54.26:654][ 12]PIE: New page: PIE session: Level00 (Dec 4, 2022, 7:54:26 PM)
+[2022.12.05-01.54.26:657][ 12]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.12.05-01.54.26:657][ 12]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.12.05-01.54.26:658][ 12]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.12.05-01.54.26:661][ 12]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.12.05-01.54.26:661][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003726s)
+[2022.12.05-01.54.26:661][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.003788s)
+[2022.12.05-01.54.26:661][ 12]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.05-01.54.26:661][ 12]LogAIModule: Creating AISystem for world Level00
+[2022.12.05-01.54.26:662][ 12]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.12.05-01.54.26:662][ 12]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.12.05-01.54.26:663][ 12]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.12.05-01.54.26:663][ 12]LogPlayLevel: PIE: World Init took: (0.002075s)
+[2022.12.05-01.54.26:684][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.12.05-01.54.26:684][ 12]LogBlueprintUserMessages: [GI_MemoryColor_C_0] Hello
+[2022.12.05-01.54.26:685][ 12]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.12.05-01.54.26:685][ 12]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.05-01.54.26:685][ 12]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.05-01.54.26:685][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.05-01.54.26:685][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.05-01.54.26:685][ 12]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.05-01.54.26:685][ 12]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.05-01.54.26:685][ 12]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.05-01.54.26:685][ 12]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.05-01.54.26:685][ 12]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.05-01.54.26:685][ 12]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.05-01.54.26:685][ 12]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.05-01.54.26:687][ 12]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.05-01.54.26:856][ 12]LogAudioMixer: Display: Using Audio Hardware Device Audífono de los auriculares con micrófono (CORSAIR VIRTUOSO Wireless Gaming Headset)
+[2022.12.05-01.54.26:856][ 12]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.05-01.54.26:856][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.05-01.54.26:856][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.05-01.54.26:857][ 12]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.12.05-01.54.26:857][ 12]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=2
+[2022.12.05-01.54.26:858][ 12]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.12.05-01.54.26:859][ 12]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.12.05-01.54.26:859][ 12]LogInit: FAudioDevice initialized.
+[2022.12.05-01.54.26:859][ 12]LogAudio: Display: Audio Device (ID: 2) registered with world 'Level00'.
+[2022.12.05-01.54.26:872][ 12]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.12.05-01.54.26:874][ 12]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.12.04-22.54.26
+[2022.12.05-01.54.26:874][ 12]LogWorld: Bringing up level for play took: 0.002023
+[2022.12.05-01.54.26:876][ 12]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2022.12.05-01.54.26:893][ 12]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=250.000
+[2022.12.05-01.54.26:893][ 12]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.05-01.54.26:894][ 12]PIE: Server logged in
+[2022.12.05-01.54.26:895][ 12]PIE: Play in editor total start time 0.274 seconds.
+[2022.12.05-01.54.27:349][ 15]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.12.05-01.54.27:643][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.05-01.54.27:643][ 26]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.12.05-01.54.27:643][ 26]LogBlueprintUserMessages: [GI_MemoryColor_C_0] Bye
+[2022.12.05-01.54.27:643][ 26]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.12.05-01.54.27:643][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.05-01.54.27:657][ 26]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.05-01.54.27:662][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.05-01.54.27:687][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.05-01.54.27:688][ 26]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.12.05-01.54.27:690][ 26]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.12.05-01.54.27:735][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.12.05-01.54.27:791][ 27]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.12.05-01.54.30:836][165]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.05-01.54.30:842][165]LogWorldPartition: Display: GenerateStreaming started...
+[2022.12.05-01.54.30:842][165]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.12.05-01.54.30:842][165]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.05-01.54.30:842][165]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.12.05-01.54.30:842][165]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.12.05-01.54.30:842][165]LogWorldPartition: Display: GetPartitionedActors took 47 us
+[2022.12.05-01.54.30:842][165]LogWorldPartition: Display: GenerateStreaming took 182 us
+[2022.12.05-01.54.30:842][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.05-01.54.30:842][165]PIE: New page: PIE session: Level00 (Dec 4, 2022, 7:54:30 PM)
+[2022.12.05-01.54.30:842][165]LogPlayLevel: Creating play world package: /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.12.05-01.54.30:846][165]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.12.05-01.54.30:846][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003638s)
+[2022.12.05-01.54.30:846][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MemoryColor/Maps/Level00.Level00 to /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 (0.003693s)
+[2022.12.05-01.54.30:846][165]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.05-01.54.30:846][165]LogAIModule: Creating AISystem for world Level00
+[2022.12.05-01.54.30:847][165]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.12.05-01.54.30:847][165]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.12.05-01.54.30:848][165]LogWorldPartition: Display: WorldPartition initialize took 908 us
+[2022.12.05-01.54.30:848][165]LogPlayLevel: PIE: World Init took: (0.001712s)
+[2022.12.05-01.54.30:888][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.12.05-01.54.30:895][165]LogBlueprintUserMessages: [GI_MemoryColor_C_1] Hello
+[2022.12.05-01.54.30:895][165]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.12.05-01.54.30:895][165]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.05-01.54.30:895][165]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.05-01.54.30:895][165]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.05-01.54.30:895][165]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.05-01.54.30:895][165]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.05-01.54.30:895][165]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.05-01.54.30:895][165]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.05-01.54.30:895][165]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.05-01.54.30:896][165]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.05-01.54.30:896][165]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.05-01.54.30:896][165]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.05-01.54.30:898][165]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.05-01.54.31:074][165]LogAudioMixer: Display: Using Audio Hardware Device Audífono de los auriculares con micrófono (CORSAIR VIRTUOSO Wireless Gaming Headset)
+[2022.12.05-01.54.31:074][165]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.05-01.54.31:075][165]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.05-01.54.31:075][165]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.05-01.54.31:075][165]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.12.05-01.54.31:075][165]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2022.12.05-01.54.31:077][165]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.12.05-01.54.31:077][165]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.12.05-01.54.31:077][165]LogInit: FAudioDevice initialized.
+[2022.12.05-01.54.31:077][165]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level00'.
+[2022.12.05-01.54.31:099][165]LogLoad: Game class is 'GM_MemoryColor_C'
+[2022.12.05-01.54.31:100][165]LogWorld: Bringing World /Game/MemoryColor/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2022.12.04-22.54.31
+[2022.12.05-01.54.31:100][165]LogWorld: Bringing up level for play took: 0.001476
+[2022.12.05-01.54.31:102][165]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2022.12.05-01.54.31:104][165]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1400.000 Y=220.000 Z=250.000
+[2022.12.05-01.54.31:104][165]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.05-01.54.31:105][165]PIE: Server logged in
+[2022.12.05-01.54.31:105][165]PIE: Play in editor total start time 0.264 seconds.
+[2022.12.05-01.54.33:313][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.05-01.54.33:313][273]LogWorld: BeginTearingDown for /Game/MemoryColor/Maps/UEDPIE_0_Level00
+[2022.12.05-01.54.33:313][273]LogBlueprintUserMessages: [GI_MemoryColor_C_1] Bye
+[2022.12.05-01.54.33:313][273]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2022.12.05-01.54.33:313][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.05-01.54.33:327][273]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.05-01.54.33:330][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.05-01.54.33:348][273]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.05-01.54.33:348][273]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.12.05-01.54.33:349][273]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.12.05-01.54.33:353][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.05-01.54.33:356][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.12.05-01.54.33:403][274]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.12.05-01.54.36:048][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.12.05-01.54.36:067][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.12.05-01.54.36:086][367]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.12.05-01.54.36:087][367]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MemoryColor/Maps/Level00/7/AD/EEYL2AYVFEY8N1P57IHQ33
+[2022.12.05-01.54.36:087][367]LogSavePackage: Moving 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Saved/EEYL2AYVFEY8N1P57IHQ3319B50C71438D8B5D5695568BAEC448FE.tmp' to 'H:/AA Facu/Unreal/MemoryColor_Benitez/MemoryColor_Benitez/Content/__ExternalActors__/MemoryColor/Maps/Level00/7/AD/EEYL2AYVFEY8N1P57IHQ33.uasset'
+[2022.12.05-01.54.36:099][367]AssetCheck: New page: Asset Save: BP_Rifle_C_UAID_50EBF694E1F2FE4F01_1900997287
+[2022.12.05-01.54.36:099][367]LogContentValidation: Display: Validating BP_Rifle_C /Game/MemoryColor/Maps/Level00.Level00:PersistentLevel.BP_Rifle_C_UAID_50EBF694E1F2FE4F01_1900997287
